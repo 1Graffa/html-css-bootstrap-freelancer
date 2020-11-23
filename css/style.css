@@ -2,18 +2,39 @@
 /* row SEMPRE dentro container
 col SEMPRE dentro row
 (le col DEVONO essere figlie dirette di row */
-.color_white{
-  color: #fff;
+/* DEBUG */
+.debug .row [class*="col-"] {
+  border: 1px solid black;
 }
-.bg_blue{
+.debug .row {
+  height: 200px;
+
+}
+.debug .row [class*="col-"] {
+  height: 100%;
+}
+.debug .row .row [class*="col-"] {
+  border: 2px solid white;
+}
+.debug .row .row {
+  padding: 5px;
+}
+/* HEADER */
+header nav{
   background-color: #2c3e50;
 }
-.bg_green{
-  background-color: #1abc9c;
+header #jumbotron{
+  height: 400px;
+  background-color: #1abc9c
 }
-.height_200{
-  height: 200px;
+/* MAIN */
+#about .container{
+  background-color: #1abc9c
 }
-.border_red{
-  border: 2px solid red;
+/* FOOTER */
+footer .footer_bottom .container{
+  background-color: #2c3e50;
+}
+footer .footer_top .container{
+  background-color: lightgrey;
 }
