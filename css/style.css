@@ -8,9 +8,8 @@ col SEMPRE dentro row
 }
 .debug .row {
   height: 200px;
-
 }
-.debug .row [class*="col-"] {
+/* .debug .row [class*="col-"] {
   height: 100%;
 }
 .debug .row .row [class*="col-"] {
@@ -18,23 +17,113 @@ col SEMPRE dentro row
 }
 .debug .row .row {
   padding: 5px;
+} */
+/* Typography */
+.ms_text_white {
+  color: white;
 }
 /* HEADER */
-header nav{
+.navbar.ms_navbar{
   background-color: #2c3e50;
+  border:0;
+  margin-bottom: 0;
+  padding: 20px 0;
 }
-header #jumbotron{
-  height: 400px;
+.navbar.ms_navbar .navbar-brand,
+.navbar.ms_navbar .navbar-nav li a{
+  color:white;
+  text-transform: uppercase;
+}
+
+.navbar.ms_navbar .navbar-nav li a:hover{
+  color:#1abc9c;
+}
+
+#jumbotron{
   background-color: #1abc9c
 }
+#jumbotron h1{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: white;
+}
+.ms_star:before,
+.ms_star:after{
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: white;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+.ms_star{
+  font-size: 30px;
+}
+.ms_star_:before,
+.ms_star_:after{
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: grey;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+.ms_star_{
+  font-size: 30px;
+}
 /* MAIN */
+#portfolio .boxes{
+  width: 100%;
+  border-radius: 20px;
+  margin:10px 0;
+}
+#portfolio ._layover{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.53);
+  z-index: 2;
+}
+ .boxes ._layover:hover{
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
 #about .container{
   background-color: #1abc9c
 }
-/* FOOTER */
-footer .footer_bottom .container{
-  background-color: #2c3e50;
+#about .btn_download{
+  color: white;
+  border: 1px solid white;
+  background-color: #1abc9c;
 }
-footer .footer_top .container{
-  background-color: lightgrey;
+#about .btn_download:hover{
+  color:#2C3E50;
+  background-color: white;
+}
+/* FOOTER */
+
+footer .footer_top{
+  background-color: #2C3E50;
+}
+
+footer .btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px;
+}
+footer .btn-social:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+footer .footer_bottom{
+  background-color: #2c3e50;
 }
