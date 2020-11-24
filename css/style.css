@@ -93,12 +93,11 @@ col SEMPRE dentro row
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  margin:10px 0;
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 150, 0, 0.5);
 }
 ._layover i{
   font-size: 200px;
