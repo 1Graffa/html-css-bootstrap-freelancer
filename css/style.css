@@ -96,16 +96,15 @@ col SEMPRE dentro row
   position: absolute;
   top :10px;
   left: 15px;
-
-  background-color: rgba(0, 150, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.0);
 }
 ._layover i{
   font-size: 100px;
   color: transparent;
-  padding-top: 20%;
+  padding-top: 22%;
 }
 .contenitore:hover ._layover{
-  background-color: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 150, 0, 0.8);
 }
 .contenitore:hover ._layover i{
   color: white;
