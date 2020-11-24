@@ -104,7 +104,7 @@ col SEMPRE dentro row
   padding-top: 22%;
 }
 .contenitore:hover ._layover{
-  background-color: rgba(0, 150, 0, 0.8);
+  background-color: rgba(28,188,156,0.8);
 }
 .contenitore:hover ._layover i{
   color: white;
